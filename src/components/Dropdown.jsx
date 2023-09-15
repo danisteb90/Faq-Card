@@ -1,0 +1,17 @@
+
+
+const Dropdown = ({ title, paragraph }) => {
+    return (
+        <div className="relative px-5">
+            <input className="absolute top-1 right-6 peer cursor-pointer w-[280px] opacity-0" type="checkbox" />
+            <p className="text-[13px] cursor-pointer peer-checked:font-bold peer-hover:text-Soft-red">{title}</p>
+            <hr className="my-3" />
+            <button className="absolute top-1 right-6 transition-transform duration-300 rotate-0 peer-checked:rotate-180"><img src="/src/assets/icon-arrow-down.svg" /></button>
+            <div className="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-20">
+                <p className="text-[12px] mb-4">{paragraph}</p>
+            </div>
+        </div>
+    );
+}
+
+export default Dropdown;
