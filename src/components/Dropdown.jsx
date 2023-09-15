@@ -3,7 +3,7 @@ import arrow from "../assets/icon-arrow-down.svg"
 const Dropdown = ({ title, paragraph }) => {
     return (
         <div className="relative px-5">
-            <input className="absolute top-1 right-6 peer cursor-pointer w-[290px] z-10" type="checkbox" />
+            <input className="absolute top-1 right-6 peer cursor-pointer w-[290px] z-10 opacity-0" type="checkbox" />
             <button className="absolute top-1 right-6 transition-transform duration-300 rotate-0 peer-checked:rotate-180"><img src={arrow} alt="arrow" /></button>
             <p className="text-[13px] cursor-pointer peer-checked:font-bold peer-hover:text-Soft-red">{title}</p>
             <hr className="my-3" />
