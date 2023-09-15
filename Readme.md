@@ -1,3 +1,3 @@
-#FAQ Acordion Card using Vite + React + Taiwling
+#FAQ Acordion Card using Vite + React + Taiwlind
 
 - Card with components working, data taken from JSON archive.
